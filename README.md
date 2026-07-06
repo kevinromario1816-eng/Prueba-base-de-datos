@@ -1,10 +1,10 @@
-# 📦 Supply Chain and Inventory Management System (Riwi Supply)
+# Supply Chain and Inventory Management System (Riwi Supply)
 
 This repository contains the database design and implementation for managing suppliers, purchases, products, warehouses, and inventory movements. It is designed to track product stock levels and purchase history across multiple cities.
 
 ---
 
-## 📐 Relational Schema (Tables)
+##  Relational Schema (Tables)
 
 Below are the details of the tables implemented in this database, including their Primary Keys (**PK**) and Foreign Keys (**FK**):
 
@@ -64,23 +64,11 @@ Tracks all stock changes (Inputs/Outputs) across warehouses.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-* **Database Engine:** PostgreSQL / MySQL *(Choose yours)*
+* **Database Engine:** PostgreSQL / MySQL
 * **Language:** SQL (DDL & DML)
 * **Design Pattern:** Relational Database Management System (RDBMS)
-
----
-
-## 🚀 Setup Instructions
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com
-   ```
-2. Open your preferred database tool (e.g., DBeaver, pgAdmin, DataGrip).
-3. Execute the SQL scripts to build the schema. Make sure to run them in an order that respects foreign key dependencies (`riwi_city` and `riwi_category` must be created first).
-4. *(Optional)* Run the data migration or seed script to populate the tables with initial records.
 
 ---
 Developed for advanced inventory control and data integrity.
